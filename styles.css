@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: rgb(75, 75, 75);
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 25px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(190, 190, 190);
+    color: rgb(75, 75, 75);
+    border: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    height: 45px;
+    width: 45px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(190, 190, 190);
+    color: rgb(75, 75, 75);
+    border: none;
+}
+
+.result-div {
+    padding: 100px auto;
+}
+
+li {
+    list-style: none;
+    font-size: 21px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px auto;
+}
+
+span {
+    margin-left: 20px;
+    padding: 2px;
+    cursor: pointer;
+}
